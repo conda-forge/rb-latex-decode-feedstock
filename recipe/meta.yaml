@@ -1,5 +1,5 @@
 {% set name = "latex-decode" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: ed7baa7c70d605d0135c26f5333dcc84bcc1cf38a9bf747ddb0568954cb60a37
+  sha256: 7594687c1350192b7b9c0cd4e79f67f366324878d526450b5d684d47057addf2
 
 build:
   noarch: generic
